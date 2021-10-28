@@ -131,19 +131,19 @@ height: 3rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
-    
-}
-.btn_a {
     text-decoration:none;
-    color: #000;
+    
+    
+}
+
+.btn_a {
+    
+    color: rgb(187, 184, 184);
     display: flex;
-    justify-content: space-evenly;  
+    justify-content: flex-start;
+    padding: 2rem;  
 }
-.btn_fitre_1:hover {
-    background:#fad3ef67 ;
-   
-}
+
 
 .btn_fitre_position {
     display: flex;
@@ -165,11 +165,20 @@ height: 3rem;
     color: rgb(255, 255, 255);
     padding-top: 3px;
 }
-.icon {
-    color: rgb(148, 140, 140);
+
+.btn_text {
+    position: absolute;
+    text-decoration:none;
+    color: #000;
+    padding-left: 100px;
 }
-.icon:hover {
-    color:#9356DC ;
+
+
+
+.icon_hover:hover {
+    color: #9356DC ;
+    background-color:#eee5f8 ;
+    border-radius: 25px 25px 25px 25px; 
 }
 
 /*restauran*/
