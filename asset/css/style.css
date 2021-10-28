@@ -104,8 +104,9 @@ height: 3rem;
 
 
 .fonction {
-  width: 100%;
-  padding-left: 1rem; 
+  width: 200px;
+  display: flex;
+  justify-content: flex-end;
   padding-top: 1rem;
    
 }
@@ -182,8 +183,11 @@ height: 3rem;
 }
 
 .res_titre {
+    width: 150px;
+    display: flex;
+    justify-content: flex-end;
     padding-top: 3rem;
-    padding-left: 1rem;
+    
 }
 
 /*cards*/ 
@@ -268,34 +272,49 @@ height: 3rem;
     width: 100%;
     height: 250px;
     background-color: rgb(39, 39, 39);
-    padding-left: 3rem;
+   
     padding-top: 5px;
 }
 .footer_titre {
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
     color:white;
     font-family: 'Shrikhand', cursive; 
     font-weight: lighter;
 }
 .footer_para {
+    width: 210px;
     color:white;
     display: flex;
-    width: 200px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-decoration:none;
 }
 .footer_para_2 {
+    width: 180px;
     color:white;
     display: flex;
-    width: 168px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 8px;
     text-decoration:none;
 }
 .footer_para_3 {
+    width: 130px;
+    display: flex;
+    justify-content: flex-end;
     color:white;
     padding-top: 8px;
     text-decoration:none;
 }
+.footer_para_4 {
+    width: 65px;
+    display: flex;
+    justify-content: flex-end;
+    color:white;
+    padding-top: 8px;
+    text-decoration:none;
+}
+
 .footer_mention {
     display: flex;
     flex-direction: column;
