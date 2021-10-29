@@ -40,6 +40,7 @@ height: 3rem;
 ::placeholder {
     color: #000;
     font-weight: normal;
+   
 }
 
 /*paregraphe*/
@@ -90,7 +91,8 @@ height: 3rem;
     color: rgb(250, 248, 248);
     background: linear-gradient(#FF79DA, #9356DC);
     border: none;
-    font-weight: bold;
+  
+    
 }
 .explorer:hover {
     background:  #9c3c81 ; 
@@ -117,87 +119,69 @@ height: 3rem;
 .filtre {
     width: 100%;
     height: 350px;
-    
-   
-    
-}
-.btn_fitre_1 {
-    text-align: center;
-    width: 310px;
-    height: 70px;
-    background-color: rgb(248, 248, 248);
-    box-shadow: 1px 1px 10px 0px rgba(104, 103, 103, 0.2);
-    border-radius: 25px 25px 25px 25px;
     display: flex;
     justify-content: center;
+}
+.btn_centre {
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
-    text-decoration:none;
-    
-    
+}
+.btn {
+    width: 350px;
+    height: 75px;
+    border-radius: 25px 25px 25px 25px; 
+    box-shadow: 1px 1px 10px 0px rgba(104, 103, 103, 0.2);
+    display: flex;
+    justify-content:space-evenly ;
+    background-color:rgb(248, 248, 248) ;
+    text-decoration: none;
 }
 
-.btn_a {
-    
-    color: rgb(187, 184, 184);
-    display: flex;
-    justify-content: flex-start;
-    padding: 2rem;  
-}
-
-
-.btn_fitre_position {
-    display: flex;
-    justify-content: center;
-    padding-top: 2rem;
+.btn_number {
+    margin-left: -65px;
+    width: 25px;
+    height: 25px;
+    background-color:#9356DC ;
+    border-radius: 25px 25px 25px 25px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 26px;
 }
 .number {
-    width: 22px ;
-    height: 22px;
-    border-radius: 25px 25px 25px 25px;
-    background:#9356DC ;
-    position: absolute;
-    margin-top: 25px;
-    margin-right: 312px;
+    margin-top: 3px;
 }
-.number_ron {
-    margin: 0;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    padding-top: 3px;
-}
-
-.btn_text {
-    position: absolute;
-    text-decoration:none;
-    color: #000;
-    padding-left: 100px;
-}
-
-
-
-.icon_hover:hover {
-    color: #9356DC ;
-    background-color:#eee5f8 ;
-    border-radius: 25px 25px 25px 25px; 
-}
-
-/*restauran*/
-
-
-.restauran {
-    width: 100%;
-    height: 1250px;
-    background-color:rgb(247, 245, 245) ;
+.btn_icone {
+    margin-top: 30px;
     
 }
+.text {
+   padding-top: 15px;
+   color: #000;
+}
+.btn:hover{
+    background-color: #f2ecfa;
+    color: #9356DC;
+   
+}
+.icon_fitre {
+    font-size: 20px ; 
+}
 
+/*restaurant*/ 
+.restauran{
+    width: 100%;
+    height: 1300px ;
+    background-color: rgb(248, 248, 248);
+}
 .res_titre {
     width: 150px;
     display: flex;
     justify-content: flex-end;
-    padding-top: 3rem;
-    
+    padding-top: 50px;
 }
+
 
 /*cards*/ 
 /*novo_cards*/
@@ -218,8 +202,8 @@ height: 3rem;
     color: #000;
 }
 .novo_cards:hover {
-    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
-    
+        box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+
 }
 .img_novo {
     width: 330px;
@@ -247,6 +231,7 @@ height: 3rem;
     border-radius: 3px 3px 3px 3px; 
     color: rgb(92, 161, 135);
     border:rgb(92, 161, 135) solid 1px;
+    font-size: 15px;
     
     
 }
@@ -267,6 +252,7 @@ height: 3rem;
 .icone_coeur {
     padding-top: 15px;
     color: rgb(148, 140, 140);
+    font-size: 20px;
 
 }
 
