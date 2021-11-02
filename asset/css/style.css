@@ -4,6 +4,8 @@
 
 ---les menus---              .ligne341
 
+---responsive---             .ligne578
+
 */
 
 
@@ -101,6 +103,7 @@ height: 3rem;
 
 .btn_exp {
     width: 100%;
+
 }
 .explorer {
     width: 245px;
@@ -109,6 +112,7 @@ height: 3rem;
     color: rgb(250, 248, 248);
     background: linear-gradient(#FF79DA, #9356DC);
     border: none;
+    animation: sidetop 3s ; 
   
     
 }
@@ -155,7 +159,9 @@ height: 3rem;
     justify-content:space-evenly ;
     background-color:rgb(248, 248, 248) ;
     text-decoration: none;
+    animation: sidetop 3s ; 
 }
+
 
 .btn_number {
     margin-left: -65px;
@@ -170,18 +176,22 @@ height: 3rem;
 .number {
     margin-top: 3px;
 }
-.btn_icone {
+.btn_icone  {
     margin-top: 30px;
+    color: rgb(139, 136, 136);
     
 }
 .text {
    padding-top: 15px;
    color: #000;
 }
-.btn:hover{
-    background-color: #f2ecfa;
-    color: #9356DC;
+.btn:hover  {
+    background-color: #eee5f8;
+  
    
+}
+.btn:hover .icon_fitre {
+    color: #9356DC;
 }
 .icon_fitre  {
    
@@ -209,17 +219,18 @@ height: 3rem;
     width: 100%;
     margin-top: 2rem;
     display: flex;
-    justify-content: center; 
+    justify-content:center ; 
 }
 
 .novo_cards {
     width: 330px;
-    height: 250px;
+    height: auto;
     background-color: rgb(253, 253, 253);
     border-radius: 15px 15px 15px 15px; 
     box-shadow: 1px 1px 10px 0px rgba(104, 103, 103, 0.2);
     text-decoration:none;
     color: #000;
+    animation: sidetop 3s ; 
 }
 .novo_cards:hover {
         box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
@@ -403,9 +414,8 @@ height: 3rem;
 
 .entrees {
     width: 100%;
-
     background-color: rgb(248, 248, 248);
-  
+    
    
 }
 .poste {
@@ -450,14 +460,6 @@ height: 3rem;
      justify-content: end;
  }
 
-.cards_50 {
-   
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-   
-}
 
 .cards_mini {
     width: 375px ;
@@ -468,12 +470,46 @@ height: 3rem;
     text-decoration:none;
     display: flex;
     justify-content:space-around;
-    margin-top: 15px;
+    background-position: initial;
+    transition: width  1s ; 
 }
 
-.cards_mini:hover {
-    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+
+
+.transition {
+    width: 375px ;
+    height: auto;
+    border-radius: 16px 16px 16px 16px; 
+    box-shadow: 1px 1px 10px 0px rgba(104, 103, 103, 0.2);
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(122, 228, 175);
+    margin-bottom: 25px;
+    margin-top: 25px;
+  
+    
 }
+
+
+.check {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  transition:  1s;
+  border-radius: 0px 25px 25px 0px ;
+  margin-top: 24px;
+  font-size: 25px;
+  text-align: center;
+  color:white;
+
+
+}
+.transition:hover .check {
+    opacity: 1;
+    width: 50px;
+    transform: rotate3d(0,1,0,360deg);
+}
+
 .text_prix {
     color: #000;
     width: 275px;
@@ -496,6 +532,7 @@ height: 3rem;
  .prix {
    margin-top: 40px;  
    color: #000;
+ 
  }
   
 .btn_commende {
@@ -505,4 +542,151 @@ height: 3rem;
    justify-content: center;
    padding-top: 30px;
    background-color: rgb(248, 248, 248);
+}
+
+.tanse_cards1 {
+    animation: sidetop 1s  ;
+}
+
+.tanse_cards2 {
+    animation: sidetop 2s  ;
+}
+
+.tanse_cards3 {
+    animation: sidetop 3s  ;
+}
+.tanse_cards4 {
+    animation: sidetop 4s  ;
+}
+
+@keyframes sidetop {
+    0% {
+        transform:scale3d()(200px);
+        opacity: 0;
+    }
+   
+    100% {
+        transform:scale3d()(0px);
+        opacity: 1;
+    }
+
+}
+
+
+
+
+/*-----responsive------*/
+
+/*---page_restaurant---*/
+
+
+@media screen and (min-width: 1200px){ 
+   
+  /*---position_titre_filtre---*/  
+   
+    .fonction{
+        width: 100%;
+       display: flex;
+       justify-content: center;
+    }
+
+    .filtre{
+        height: 100px;
+    }
+ 
+    .btn_centre {
+       flex-direction: row;
+    }
+
+   .btn {
+       margin-right: 35px;
+   } 
+
+
+   /*---cards----*/
+
+   .res_titre{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+   .cards {
+       display: flex;
+       justify-content: space-evenly;
+      
+   }
+   
+
+   .restauran {
+       height: 700px;
+   }
+   
+
+
+
+  /*---menu---*/ 
+   
+
+
+.titre_palette {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.arrow {
+   margin-right: 25px;
+}
+
+  .transition {
+    margin-left: 25px;
+
+  }
+
+  .titre_nav {
+    display: flex;
+    justify-content: center;
+}
+
+.icone_coeur_pal {
+ margin-left: 25px;
+}
+
+.titre_entrees {
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    justify-content:center;
+  }
+
+  .titre_desserts {
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    justify-content:center;
+  }
+
+  .titre_plats {
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    justify-content:center;
+  }
+
+  .ligne_poste {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
 }
