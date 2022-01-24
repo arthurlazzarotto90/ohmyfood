@@ -593,12 +593,12 @@ height: 3rem;
 
 @keyframes sidetop {
     0% {
-        transform: scale3d(1);
+       
         opacity: 0;
     }
    
     100% {
-        transform: scale3d(0);
+        
         opacity: 1;
     }
 
