@@ -299,9 +299,22 @@ height: 3rem;
     
 
 }
-.icone_coeur:hover {
+
+
+.fa-heart{
     color: #9356DC;
+  
+
 }
+.fa-heart:hover { 
+    color: #9356DC;
+    cursor: pointer;
+    font-weight:bold;
+
+}
+
+
+
 
 
 
@@ -357,20 +370,31 @@ height: 3rem;
     color: rgb(170, 169, 169);
 }
 .footer_para_4 {
-    width: 65px;
+    width: 185px;
+    height: 15px;
     display: flex;
     justify-content: flex-end;
     color:white;
     padding-top: 8px;
     text-decoration:none;
+    overflow: hidden;
+   
 }
+
 .footer_para_4:hover{
     color: rgb(170, 169, 169);
+    overflow: visible;
+    
+    
+    
+
 }
+
 
 .footer_mention {
     display: flex;
     flex-direction: column;
+  
 }
 
 
