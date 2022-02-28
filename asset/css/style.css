@@ -13,6 +13,41 @@
 body {
     margin: 0;
 }
+.chargement{
+    animation: sidetop 10s ; 
+   
+}
+.fa-spinner{
+    font-size: 100px;
+    color:#FF79DA ;
+   
+}
+.icone_chage{
+    position: absolute;
+    width: 100px;
+    animation: charge 5s;
+    opacity: 0;  
+   margin-top: 70%;
+   margin-left: 40%;
+} 
+@keyframes charge {
+    from{
+      transform: rotate(0deg);
+       opacity: 0;
+    }
+
+    50%{
+       transform: rotate(380deg);
+       opacity: 1;
+      
+    }
+    to{
+        transform: rotate(760deg); 
+        opacity: 0;
+      
+    }
+
+}
 
 
 
@@ -301,23 +336,27 @@ height: 3rem;
 }
 
 
+
 .fa-heart{
     color: #9356DC;
-  
+    
+    cursor: pointer;
+    
 
 }
-.fa-heart:hover { 
+
+
+.fa-heart:hover{ 
     color: #9356DC;
     cursor: pointer;
-    font-weight:bold;
+    font-weight:bold; 
+    animation: sidetop 1s ;
 
 }
 
 
-
-
-
-
+  
+ 
 /*footer*/
 
 .fin_de_page {
@@ -605,14 +644,14 @@ height: 3rem;
 }
 
 .tanse_cards2 {
-    animation: sidetop 2s  ;
+    animation: sidetop 3s  ;
 }
 
 .tanse_cards3 {
-    animation: sidetop 3s  ;
+    animation: sidetop 5s  ;
 }
 .tanse_cards4 {
-    animation: sidetop 4s  ;
+    animation: sidetop 8s  ;
 }
 
 @keyframes sidetop {
@@ -738,18 +777,19 @@ height: 3rem;
     justify-content: center;
   }
 
-
-
-
-
-
-  
-
-
-
-
-
-
-
+  .icone_chage{
+    position: absolute;
+    width: 100px;
+    animation: charge 5s;
+    opacity: 0;  
+   margin-top: 25%;
+   margin-left: 47%;
+} 
 
 }
+
+
+
+
+
+
