@@ -30,6 +30,8 @@ body {
    margin-top: 70%;
    margin-left: 40%;
 } 
+
+
 @keyframes charge {
     from{
       transform: rotate(0deg);
@@ -386,7 +388,7 @@ height: 3rem;
     color: rgb(170, 169, 169);
 }
 
-.footer_para_2 {
+.footer_para_de {
     width: 180px;
     color:white;
     display: flex;
@@ -394,10 +396,10 @@ height: 3rem;
     padding-top: 8px;
     text-decoration:none;
 }
-.footer_para_2:hover{
+.footer_para_de:hover{
     color: rgb(170, 169, 169);
 }
-.footer_para_3 {
+.footer_para_me {
     width: 130px;
     display: flex;
     justify-content: flex-end;
@@ -405,10 +407,10 @@ height: 3rem;
     padding-top: 8px;
     text-decoration:none;
 }
-.footer_para_3:hover{
+.footer_para_me:hover{
     color: rgb(170, 169, 169);
 }
-.footer_para_4 {
+.footer_para_co {
     width: 185px;
     height: 15px;
     display: flex;
@@ -420,7 +422,7 @@ height: 3rem;
    
 }
 
-.footer_para_4:hover{
+.footer_para_co:hover{
     color: rgb(170, 169, 169);
     overflow: visible;
     
