@@ -612,13 +612,13 @@ height: 3rem;
     width: 275px;
 }
 
-.text_1 {
+.text {
   font-size: large; 
    margin: 0px;
    margin-top: 15px;
   
 }
-.text_2 {
+.text_sous {
     font-weight: lighter;
      margin: 0px;
      margin-top: 4px;
