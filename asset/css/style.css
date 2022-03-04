@@ -247,6 +247,11 @@ height: 3rem;
     font-size: 20px ; 
     
 }
+.text_filtre{
+    margin-top: 30px;
+    text-decoration: none;
+    color: #000;
+}
 
 /*restaurant*/ 
 .restauran{
@@ -549,6 +554,7 @@ height: 3rem;
     width: 45px;
     height: 4px;
     background-color: rgb(122, 228, 175);
+    margin-bottom: 10px;
    
 }
  .ligne_poste {
@@ -582,7 +588,7 @@ height: 3rem;
     justify-content: flex-end;
     background-color: rgb(122, 228, 175);
     margin-bottom: 25px;
-    margin-top: 25px;
+ 
     overflow-x: hidden;
 }
   
@@ -617,16 +623,15 @@ height: 3rem;
 
 .text {
   font-size: large; 
-   margin: 0px;
-  
-  
+  margin: 0px;
+  height: 40px;
 }
 .text_sous {
     font-weight: lighter;
      margin: 0px;
-     margin-top: 4px;
+     padding-bottom: 5px;
      font-size: 12px;
-     margin-bottom: 15px;
+   
  }
 
  .prix {
