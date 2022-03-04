@@ -583,9 +583,11 @@ height: 3rem;
     background-color: rgb(122, 228, 175);
     margin-bottom: 25px;
     margin-top: 25px;
+    overflow-x: hidden;
+}
   
     
-}
+
 
 
 .check {
@@ -610,12 +612,13 @@ height: 3rem;
 .text_prix {
     color: #000;
     width: 275px;
+   
 }
 
 .text {
   font-size: large; 
    margin: 0px;
-   margin-top: 15px;
+  
   
 }
 .text_sous {
@@ -627,7 +630,7 @@ height: 3rem;
  }
 
  .prix {
-   margin-top: 40px;  
+   margin-top: 30px;  
    color: #000;
  
  }
@@ -641,18 +644,19 @@ height: 3rem;
    background-color: rgb(248, 248, 248);
 }
 
-.tanse_cards1 {
+.tanse_cards_tran {
     animation: sidetop 1s  ;
+   
 }
 
-.tanse_cards2 {
+.tanse_cards_milieu {
     animation: sidetop 3s  ;
 }
 
-.tanse_cards3 {
+.tanse_cards_tran_fin {
     animation: sidetop 5s  ;
 }
-.tanse_cards4 {
+.tanse_cards_fin {
     animation: sidetop 8s  ;
 }
 
