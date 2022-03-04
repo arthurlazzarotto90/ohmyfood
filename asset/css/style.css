@@ -455,7 +455,7 @@ height: 3rem;
 
 
 .titre_palette {
-    width: 330px;
+    width: 80%;
     height: 63px;
     display: flex;
     justify-content: space-evenly;
@@ -464,6 +464,7 @@ height: 3rem;
 .arrow {
     margin-top: 35px;
    font-size: 20px;
+   width: 60px;
 }
 
 
@@ -738,14 +739,16 @@ height: 3rem;
 
 
 .titre_palette {
-   width: 100%;
-   display: flex;
-   justify-content: center;
+  
+     width: 75%;
+    height: 63px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 13px;
+ 
 }
 
-.arrow {
-   margin-right: 25px;
-}
+
 
   .transition {
     margin-left: 25px;
