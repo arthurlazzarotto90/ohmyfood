@@ -571,12 +571,13 @@ height: 3rem;
     height: auto;
     background-color: rgb(253, 253, 253);
     border-radius: 15px 15px 15px 15px; 
-    box-shadow: 1px 1px 10px 0px rgba(104, 103, 103, 0.2);
+    box-shadow: 5px 0px 20px 5px rgba(109, 108, 108, 0.2);
     text-decoration:none;
     display: flex;
     justify-content:space-around;
     background-position: initial;
     transition: width  1s ; 
+    border:solid 3px white;
 }
 
 
@@ -585,13 +586,12 @@ height: 3rem;
     width: 375px ;
     height: auto;
     border-radius: 16px 16px 16px 16px; 
-    box-shadow: 1px 1px 10px 0px rgba(104, 103, 103, 0.2);
     display: flex;
     justify-content: flex-end;
     background-color: rgb(122, 228, 175);
     margin-bottom: 25px;
  
-    overflow-x: hidden;
+
 }
   
     
@@ -604,8 +604,8 @@ height: 3rem;
   opacity: 0;
   transition:  1s;
   border-radius: 0px 25px 25px 0px ;
-  margin-top: 24px;
-  font-size: 25px;
+  margin-top: 25px;
+  font-size: 30px;
   text-align: center;
   color:white;
 
@@ -613,7 +613,7 @@ height: 3rem;
 }
 .transition:hover .check {
     opacity: 1;
-    width: 50px;
+    width: 70px;
     transform: rotate3d(0,1,0,360deg);
 }
 
