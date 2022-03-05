@@ -27,9 +27,10 @@ body {
     width: 100px;
     animation: charge 5s;
     opacity: 0;  
-   margin-top: 70%;
+   margin-top: 65%;
    margin-left: 40%;
 } 
+
 
 
 @keyframes charge {
@@ -357,7 +358,7 @@ height: 3rem;
     color: #9356DC;
     cursor: pointer;
     font-weight:bold; 
-    animation: sidetop 1s ;
+    animation: sidetop 3s ;
 
 }
 
@@ -740,7 +741,7 @@ height: 3rem;
 
 .titre_palette {
   
-     width: 75%;
+    width: 80%;
     height: 63px;
     display: flex;
     justify-content: space-evenly;
