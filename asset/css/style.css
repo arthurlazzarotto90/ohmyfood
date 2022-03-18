@@ -455,6 +455,9 @@ height: 3rem;
 /*tete_de_page*/
 
 
+
+
+
 .titre_palette {
     width: 80%;
     height: 63px;
@@ -523,9 +526,15 @@ height: 3rem;
    
 }
 .poste {
+   
     display: flex;
     justify-content: center;
+  
     
+}
+
+.cards {
+    flex-wrap: wrap;
 }
 
 .titre_entrees {
@@ -580,6 +589,11 @@ height: 3rem;
     border:solid 3px white;
 }
 
+.cards_mini:hover {
+    margin-right: 20px;
+     border-radius:  12px 0 0 12px ; 
+}
+
 
 
 .transition {
@@ -590,7 +604,7 @@ height: 3rem;
     justify-content: flex-end;
     background-color: rgb(122, 228, 175);
     margin-bottom: 25px;
- 
+   
 
 }
   
@@ -609,12 +623,20 @@ height: 3rem;
   text-align: center;
   color:white;
 
-
+ 
 }
+
+
 .transition:hover .check {
-    opacity: 1;
-    width: 70px;
-    transform: rotate3d(0,1,0,360deg);
+  opacity: 1;
+  width: 20px;
+  height: 50px;
+  transform :rotate3d(0, 0, 1, 360deg); 
+  margin-right: 30px;
+ 
+
+
+ 
 }
 
 .text_prix {
@@ -652,19 +674,19 @@ height: 3rem;
 }
 
 .tanse_cards_tran {
-    animation: sidetop 1s  ;
+    animation: sidetop 3s  ;
    
 }
 
 .tanse_cards_milieu {
-    animation: sidetop 3s  ;
+    animation: sidetop 5s  ;
 }
 
 .tanse_cards_tran_fin {
-    animation: sidetop 5s  ;
+    animation: sidetop 7s  ;
 }
 .tanse_cards_fin {
-    animation: sidetop 8s  ;
+    animation: sidetop 9s  ;
 }
 
 @keyframes sidetop {
@@ -682,7 +704,6 @@ height: 3rem;
 
 
 
-
 /*-----responsive------*/
 
 /*---page_restaurant---*/
@@ -691,6 +712,15 @@ height: 3rem;
 @media screen and (min-width: 1200px){ 
    
   /*---position_titre_filtre---*/  
+
+  .cards_res {
+     margin-left: 17%;
+     margin-right: 17%;
+  }
+
+  .cards_accuielle {
+      display: flex;
+  }
    
     .fonction{
         width: 100%;
@@ -737,6 +767,12 @@ height: 3rem;
 
   /*---menu---*/ 
    
+  .cards_quatre {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 1200px;
+  }
 
 
 .titre_palette {
@@ -800,6 +836,12 @@ height: 3rem;
    margin-top: 25%;
    margin-left: 47%;
 } 
+
+.footer_group {
+    margin-left: 17%;
+    
+}
+
 
 }
 
