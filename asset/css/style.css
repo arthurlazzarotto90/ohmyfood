@@ -590,15 +590,16 @@ height: 3rem;
 }
 
 .cards_mini:hover {
-    margin-right: 20px;
+    width: 320px;
      border-radius:  12px 0 0 12px ; 
+  
 }
 
 
 
 .transition {
     width: 375px ;
-    height: auto;
+    height: 75px;
     border-radius: 16px 16px 16px 16px; 
     display: flex;
     justify-content: flex-end;
@@ -632,7 +633,8 @@ height: 3rem;
   width: 20px;
   height: 50px;
   transform :rotate3d(0, 0, 1, 360deg); 
-  margin-right: 30px;
+ margin-left: 15px;
+  margin-right: 25px;
  
 
 
